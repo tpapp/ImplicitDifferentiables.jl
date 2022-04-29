@@ -35,17 +35,23 @@ function random_position end
 """
 function translate_position end
 
+"""
 `$(FUNCTIONNAME)(f, p)`
+"""
 function get_coordinates end
 
 ####
 #### evaluation
 ####
 
+"""
 `$(FUNCTIONNAME)(f, p)`
+"""
 function value end
 
+"""
 `$(FUNCTIONNAME)(f, p)`
+"""
 function value_and_gradient end
 
 end # module
