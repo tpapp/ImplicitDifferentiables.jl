@@ -13,8 +13,8 @@ However, *technically* `f` may involve
 
 1. A mapping from a vector of real numbers `c` that is mapped to `p`, so that one can use an unconstrained or constrained generic optimizer or MCMC algorithm.
 
-2. Solving for some implicit quantity `y`, eg equlibrium prices, that satisfies an equation `g(y, p)`. This is usually costly an involves a numerical rootfinder.
+2. Solving for some implicit quantity `y`, eg equlibrium prices, that satisfies an equation `g(y, p)`. This is usually costly and involves a numerical rootfinder.
 
-This is a lightweight interface package that helps dealing with these situations.
+This is a lightweight interface package that helps dealing with these situations. Please read the manual for details.
 
 **The package is still experimental. Interface changes will respect [SemVer](https://semver.org/), but that's all.**
